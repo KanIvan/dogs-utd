@@ -17,6 +17,40 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
+h1  {
+	width:250px;
+	font-size:40px;
+	color:#1b4491;
+	margin-bottom:3px;
+	clear:both;
+}
+
+h1 span {
+	font-size:18px;
+	display:block;
+	color:#1b4491;
+	margin-top:-5px;
+}
+
+h2 {
+	width:180px;
+	height: 23px;
+	text-align: right;
+	float:left;
+	padding:0;
+	margin:0;
+	clear:both;
+	font-size:22px;
+	color:#1b4491;
+	margin-bottom:-12px;
+}
+
+p {
+	width:500px;
+	margin-left:40px;
+	float:right;	
+}
+
 #wrapper {
 	width:969px;
 	margin:0 auto;
@@ -98,6 +132,10 @@ img.portrait {
 	margin-bottom:15px;
 }
 
+.self ul {
+    padding-top: 10px;
+}
+
 .self ul li.ad {
 	background-image:url(img/icn-ad.gif);
 }
@@ -112,4 +150,32 @@ img.portrait {
 
 .self ul li.web {
 	background-image:url(img/icn-web.gif);
+}
+
+.self ul li {
+	background-repeat: no-repeat;
+	padding-left:26px;
+	background-position: 0 .1em;
+	height:25px;
+	display:block;
+	margin-top:-2px;
+}
+
+.social {
+	width:135px;
+	float:right;
+	padding-top:10px;
+}
+
+.social ul {
+	list-style: none;
+}
+
+.social ul li {
+	float:left;
+	width:21px;
+	height:24px;
+	margin:0;
+	padding:0;
+	margin-left:20px;
 }
