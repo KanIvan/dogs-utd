@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+#wrapper {
+	width:969px;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+.wrapper-top {
+	width:969px;
+	height:19px;
+	margin:0 auto;
+	background-image:url(img/btop.jpg);
+	background-repeat:no-repeat;
+}
+
+.wrapper-mid {
+	width:969px;
+	margin:0 auto;
+	background-image:url(img/bmid.jpg);
+	background-repeat: repeat-y;
+    padding-bottom:40px;
+}   
+#paper {
+	width:828px;
+	margin:0 auto;
+}
+
+.paper-top {
+	width:828px;
+	margin:0 auto;
+	background-image:url(img/ptop.jpg);
+	background-repeat:no-repeat;
+	height:126px;
+}
+
+#paper-mid {
+	width:828px;
+	margin:0 auto;
+	background-image:url(img/pmid.jpg);
+	background-repeat:repeat-y;
+	display:block;
+	padding:0;
+	overflow: hidden;
+	padding-bottom:75px;
+    padding-top:7px;
+} 
+
+#paper {
+        width:828px;
+        margin:0 auto;
+}
+    
+.entry {
+        width:720px;
+        display: block;
+        padding-top:55px;
+        clear: both;
+        margin-left:4px;    
+}
+
+img.portrait {
+	background-image:url(img/frame.jpg);
+	background-repeat: no-repeat;
+	width:109px;
+	height:109px;
+	padding-top:20px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:50px;
+    float:left;
+}
+
+.self {
+	width:250px;
+	float:left;
+	padding-top:11px;
+	margin-left:38px;
+	margin-bottom:15px;
+}
+
+.self ul li.ad {
+	background-image:url(img/icn-ad.gif);
+}
+
+.self ul li.mail {
+	background-image:url(img/icn-mail.gif);
+}
+
+.self ul li.tel {
+	background-image:url(img/icn-tel.gif);
+}
+
+.self ul li.web {
+	background-image:url(img/icn-web.gif);
+}
